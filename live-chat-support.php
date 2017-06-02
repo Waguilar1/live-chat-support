@@ -18,5 +18,6 @@ function add_intercom() {
 <?php
     }
 }
-add_action('wp_footer', 'add_intercom');
+add_action('admin_footer', 'add_intercom_snippet');
+add_action('admin_footer', 'customise_intercom');
 ?>
