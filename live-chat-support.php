@@ -1,4 +1,14 @@
 <?php 
+/*
+ * Plugin Name: Live Chat Support
+ * Version: 1.0
+ * Plugin URI: http://developers.asuite.cf
+ * Description: This plugin adds intercom live chat support to your admin dashboard.
+ * Author: ASuite Developers
+ * Author URI: http://developers.asuite.cf
+ * Tested up to: 4.8
+ */
+
 function add_intercom() {
   if ( is_user_logged_in() )  {
 	  global $current_user;
